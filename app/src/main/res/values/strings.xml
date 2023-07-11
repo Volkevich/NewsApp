@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="newsOne">В Краснодарском крае задержан мужчина,
+        подозреваемый в убийстве экс-командира подлодки «Краснодар»
+        и замначальника городского отдела по мобилизационной работе
+        Станислава Ржицкого. </string>
+    <string name="newsTwo">В последний раз снег в Йоханнесбурге выпал в августе 2012 года, а до этого в 2007-м.
+        Некоторые дети, живущие в городе, увидели снегопад впервые в жизни.
+        </string>
+    <string name="newsThree">На Украину надо отправить международные миссии для фиксации преступлений киевских властей в отношении православия
+        и Украинской православной церкви (УПЦ). </string>
+    <string name="newsFour">В Госдуме во втором и третьем чтении приняли законопроект,
+        который обязывает банки проверять все переводы физических лиц на предмет мошенничества.</string>
+    <string name="newsFive">Российская стратегическая авиация в 2023 году получит сразу четыре ракетоносца Ту-160.
+        Об этом министру обороны страны Сергею Шойгу доложили на Казанском авиационном заводе.</string>
+    <string name="newsSix">Документ определяет ряд понятий, таких как« платформа цифрового рубля»,
+        «пользователь платформы цифрового рубля» и «цифровой счет (кошелек)».
+        Также определен порядок открытия, ведения и закрытия цифрового счета.</string>
+    <string name="newsSeven">New opportunities await me at every turn.</string>
+    <string name="newsEight">I have the courage to follow my heart.</string>
+    <string name="newsNine">Things will unfold at precisely the right time.</string>
+    <string name="newsTena">I will be present in all the moments that this day brings.</string>
+    <string name="titleName">Breaking News</string>
+    <string name="titleOneNews">Подозреваемого в убийстве экс-командира подлодки «Краснодар» задержали</string>
+    <string name="titleTwoNews">В крупнейшем южноафриканском городе Йоханнесбург впервые за 11 лет пошел снег.</string>
+    <string name="titleThreeNews">В МИД России потребовали отправить на Украину миссию для защиты Церкви.</string>
+    <string name="titleFourNews">Банки обязали проверять все переводы физлиц на мошенничество</string>
+    <string name="titleFiveNews">Россия в 2023 году получит сразу четыре Ту-160</string>
+    <string name="titleSixNews">В России приняли закон о цифровом рубле</string>
+</resources>
