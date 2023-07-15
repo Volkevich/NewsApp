@@ -30,8 +30,8 @@ class NewsAdapter(private val context: Context,
 
     override fun onBindViewHolder(holder: NewsViewHolder, position: Int) {
         val currentItem = dataset[position]
-/*        holder.binding.titleId.text = context.resources.getString(currentItem.titleView)
-        holder.binding.contentTextViewId.text = context.resources.getString(currentItem.content)*/
+        holder.binding.titleId.text = context.resources.getString(currentItem.titleView)
+        holder.binding.contentTextViewId.text = context.resources.getString(currentItem.content)
         holder.binding.imageViewId.setImageResource(currentItem.image)
 
         holder.binding.root.setOnClickListener {
