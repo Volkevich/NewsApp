@@ -27,4 +27,7 @@
     <string name="titleFourNews">Банки обязали проверять все переводы физлиц на мошенничество</string>
     <string name="titleFiveNews">Россия в 2023 году получит сразу четыре Ту-160</string>
     <string name="titleSixNews">В России приняли закон о цифровом рубле</string>
+    <string name="refreshNews">Обновить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

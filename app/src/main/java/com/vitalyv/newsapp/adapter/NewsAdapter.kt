@@ -1,14 +1,11 @@
 package com.vitalyv.newsapp.adapter
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
 import com.vitalyv.newsapp.databinding.ListItemsBinding
 import com.vitalyv.newsapp.model.NewsItemModel
-import com.vitalyv.newsapp.service.NewsApiService
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 
 
 class NewsAdapter(private val context: Context,
@@ -33,8 +30,8 @@ class NewsAdapter(private val context: Context,
 
     override fun onBindViewHolder(holder: NewsViewHolder, position: Int) {
         val currentItem = dataset[position]
-        holder.binding.titleId.text = context.resources.getString(currentItem.titleView)
-        holder.binding.contentTextViewId.text = context.resources.getString(currentItem.content)
+/*        holder.binding.titleId.text = context.resources.getString(currentItem.titleView)
+        holder.binding.contentTextViewId.text = context.resources.getString(currentItem.content)*/
         holder.binding.imageViewId.setImageResource(currentItem.image)
 
         holder.binding.root.setOnClickListener {

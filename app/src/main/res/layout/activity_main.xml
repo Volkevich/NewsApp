@@ -5,31 +5,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@drawable/backgroundgif"
-    >
+    tools:context=".MainActivity">
+
 
 
     <ImageView
         android:id="@+id/imageBackGround"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewId"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:padding="5dp"
-        tools:listitem="@layout/list_items"
-        app:layout_constraintTop_toTopOf="@id/guideLineId"
         app:layout_constraintBottom_toBottomOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="@id/guideLineId"
+        tools:listitem="@layout/list_items" />
+    <Button
+        android:id="@+id/refreshButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/refreshNews"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recyclerViewId"
+        app:layout_constraintVertical_bias="0.921"
+        tools:ignore="MissingConstraints" />
+
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLineId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent=".14"
-        />
+        app:layout_constraintGuide_percent=".14" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
